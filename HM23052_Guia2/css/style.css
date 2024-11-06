@@ -1,0 +1,34 @@
+/* Fondo negro y texto blanco */
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Header centrado */
+header {
+    text-align: center;
+    background-color: #2196F3;
+    color: white;
+    padding: 20px;
+}
+
+/* Estilo para el h3 (texto en cursiva) */
+h3 {
+    font-style: italic;
+}
+
+/* Estilo para la sección (tipografía Helvetica, tamaño de letra 12pt, texto justificado) */
+section {
+    font-family: Helvetica, sans-serif;
+    font-size: 12pt;
+    text-align: justify;
+    margin: 20px;
+}
+
+/* Footer centrado */
+footer {
+    text-align: center;
+    font-size: 0.8em;
+    margin-top: 20px;
+}
