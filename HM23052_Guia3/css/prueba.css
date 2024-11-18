@@ -1,0 +1,68 @@
+* {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1rem;
+    text-align: justify;
+}
+
+div {
+    background-color: white;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+/* Estilos para móviles con ancho máximo de 480px */
+@media screen and (max-width: 480px) {
+    html {
+        font-size: 14px;
+    }
+
+    body {
+        background-color: #03A9F4;
+    }
+
+    div {
+        width: 95%;
+    }
+}
+
+/* Estilos para tablets con ancho entre 481px y 768px */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    html {
+        font-size: 15px;
+    }
+
+    body {
+        background-color: #FF9800;
+    }
+
+    div {
+        width: 85%;
+    }
+}
+
+/* Estilos para desktop con ancho mínimo de 769px */
+@media screen and (min-width: 769px) {
+    /* Ajustar tamaño de fuente global */
+    html {
+        font-size: 16px;
+    }
+
+    /* Fondo gris claro para la página */
+    body {
+        background-color: #E0E0E0;
+    }
+
+    /* Ajuste del ancho del contenedor */
+    div {
+        width: 75%;
+    }
+}
